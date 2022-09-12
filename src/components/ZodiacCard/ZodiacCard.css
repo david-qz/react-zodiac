@@ -1,0 +1,19 @@
+.ZodiacCard {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+
+    background-color: cornsilk;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 4px;
+    text-align: center;
+}
+
+.ZodiacCard img {
+    height: 180px;
+    object-fit: contain;
+}
