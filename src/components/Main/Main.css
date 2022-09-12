@@ -1,3 +1,7 @@
 .Main {
     padding-bottom: 25px; /* To avoid the footer covering content */
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
