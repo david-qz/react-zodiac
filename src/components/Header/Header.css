@@ -1,6 +1,10 @@
 .Header {
     padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #244163;
+    box-shadow: 0 0 30px black;
 }
 
 .Header .title {

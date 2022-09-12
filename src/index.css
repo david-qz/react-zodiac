@@ -3,7 +3,10 @@
 }
 
 body {
-  background-color: rgb(95, 65, 107);
+  background-image: url('./images/felt.jpg');
+  background-size: contain;
+  background-blend-mode: multiply;
+  background-color: rgb(87, 66, 107);
   min-height: 100vh;
   margin: 0;
   padding: 0;
