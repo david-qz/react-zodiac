@@ -1,6 +1,6 @@
 .Footer {
     padding: 5px 15px;
-    background-color: #244163;
+    background-color: var(--header-color);
     color: white;
     position: fixed;
     width: 100%;

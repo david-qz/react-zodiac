@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --header-color: #233458;
+}
+
 body {
   background-image: url('./images/felt.jpg');
   background-attachment: fixed;
