@@ -71,6 +71,7 @@
         "after": true
       }
     ],
+    "space-before-blocks": "error",
     "array-bracket-spacing": "error",
     "react/prop-types": "off",
     "no-unused-vars": ["warn"],
