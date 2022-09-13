@@ -9,9 +9,9 @@ export default function ZodiacCard({ zodiacSign: { name, symbol, dates } }) {
       className='ZodiacCard'
       style={{ backgroundImage: `url(${background})` }}
     >
-      <img alt={name} src={`${process.env.PUBLIC_URL}/signs/${name}.png`}/>
       <span className='name'>{name}</span>
-      <span className='symbol'>{symbol}</span>
+      <span className='symbol'>The {symbol}</span>
+      <img alt={name} src={`${process.env.PUBLIC_URL}/signs/${name}.png`}/>
       <span className='dates'>{dates}</span>
     </div>
   );
