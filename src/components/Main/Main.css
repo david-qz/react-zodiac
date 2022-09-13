@@ -1,8 +1,11 @@
 .Main {
-    padding-top: 72px; /* To avoid the header covering content */
-    padding-bottom: 25px; /* To avoid the footer covering content */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: calc(72px + 50px); /* To avoid the header covering content */
+    padding-bottom: calc(25px + 50px); /* To avoid the footer covering content */
 
     display: flex;
     flex-flow: row wrap;
+    gap: 50px;
     justify-content: center;
 }
