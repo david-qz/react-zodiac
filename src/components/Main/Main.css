@@ -1,5 +1,5 @@
 .Main {
-    padding-top: 58px; /* To avoid the header covering content */
+    padding-top: 72px; /* To avoid the header covering content */
     padding-bottom: 25px; /* To avoid the footer covering content */
 
     display: flex;
