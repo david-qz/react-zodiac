@@ -5,7 +5,7 @@
 body {
   background-image: url('./images/felt.jpg');
   background-attachment: fixed;
-  background-size: contain;
+  background-size: 20%;
   background-blend-mode: multiply;
   background-color: rgb(87, 66, 107);
   min-height: 100vh;
