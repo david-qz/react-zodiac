@@ -14,7 +14,7 @@ function randomTransformation() {
 }
 
 export default function ZodiacCard({ zodiacSign: { name, symbol, dates } }) {
-  const [transformation] = useState(() => randomTransformation());
+  const [transformation] = useState(randomTransformation);
 
   name = name[0].toUpperCase() + name.slice(1);
   return (
